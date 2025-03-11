@@ -1,0 +1,211 @@
+html body{
+	margin: 0;
+	padding: 0vw 6vw;
+	background-color: rgb(243, 239, 239);
+	overflow-x: hidden; 	
+}
+.hr{
+	border-style: none;
+	border-top-style: dotted;
+	border-color: #0f6704;
+	border-width: 0.4em;
+	width: 55%;
+	margin: auto;
+} 
+/*=====================Header=====================*/
+.header{
+	background-color: #0f6704/*green*/;
+	/*background: linear-gradient(to bottom, gold, green, gold, green, gold, green);*/
+    border-radius: 0.5vw 0.5vw 0.1vw 0.1vw;
+    color: #fff;
+    width: 100%;
+    height: 7vw;
+    clear: both;
+	font-family: serif;
+	padding: 0.5vw 0em 0.3vw 0em;
+}
+.header h1{
+	font-size: 3vw;
+	text-align: center;
+	font-weight: 600;
+	line-height: 0.85;
+	letter-spacing: 0.15em;
+}
+.header h6{
+	font-size: 1.7vw;
+	text-align: center;
+	margin: 3% 0 0 0;
+	font-weight: 500;
+	line-height: 0.5;
+	letter-spacing: 0.1em;
+	font-family: courier;
+}
+.header img{
+	width: 9.5vw;
+	height: 8vw;
+	float: left;
+	margin-top:-1.2vw;
+}
+
+/*=====================nav Link=====================*/
+.link{
+	background-color: #d19013;
+	height: 3.2vw;
+	border-radius:0.2em;
+	width: 100%;
+}
+    /* menu */
+.menu{
+	width: 5%;
+	height: 2.45vw;
+	background-color: rgb(185, 174, 174);
+	float: right;
+	margin:0.3vw 0.5% 0vw 0;
+	padding: 0.1%;
+	border-radius: 0.4vw;
+}  
+.menu:hover{
+	background-color: #fff;
+}
+.div1, .div2, .div3{
+	width: 80%;
+	height: 0.37vw;
+	background-color: #000;
+	margin-top: 0.3vw;
+	margin-left: 10%;
+	border-radius: 1vw;
+}
+.link ul{
+    width: 97%;
+	text-align: center;
+}
+.link li{
+	list-style-type: none;
+	display: inline-block;
+	border: 2px solid #fff;
+	margin: 0.25vw 0.1vw;
+	font-size: 1.4vw;
+	border-radius: 0.4em;
+	background-color: #000;    
+}
+.link li:first-child{
+    margin-left: -12%;
+}
+.link li a{
+	text-decoration: none;
+	color: #fff;
+	font-family: Arial;
+	padding: 0.01vw 0.7vw;
+}
+.link li:hover{
+	background: linear-gradient(to bottom, green, #d39709, green, #d39709, green);
+}
+
+/*==================================== StudentInfo ====================================*/
+.intro{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 0.3vw;
+    margin: 0.2% auto;
+    box-shadow: 2px 2px 7px; 
+    font-size: 3.65vw;
+    font-weight: 600;
+    line-height: 1;
+    font-family:  monospace;
+    text-align: center;
+    padding: 1% 1% 0.1% 1%;
+}
+.student_img{
+    width: 39%;
+    background-color: #fff;
+    float: left;
+    border-radius: 0.3vw;
+    box-shadow: 2px 2px 7px; 
+    padding: 0.5%;
+	text-align: center;
+	margin-bottom: 0.2vw;
+	height: 19vw;
+}
+.student_img img{
+    width: 55%;
+}
+.student_info{
+    width: 60%;
+    background-color: #fff;
+    float: right;
+    border-radius: 0.3vw;
+    box-shadow: 2px 2px 7px; 
+    padding: 1.4%;
+	margin-bottom: 0.2vw;
+	height: 19vw;
+}
+.student_info table{
+    margin: auto;
+    width: 90%;
+	height: 16vw;
+    font-size: 2vw;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+} 
+
+/*==================================== IdustInfo ====================================*/
+.IndustInfo{
+	width: 100%;
+    background-color: #fff;
+    border-radius: 0.3vw;
+    box-shadow: 2px 2px 7px; 
+    padding: 0% 1% 1%;
+	margin-top: -1vw;
+	font-size: 1.7vw;
+	font-weight: 600;
+	font-family: 'Courier New', Courier, monospace;
+}
+.IndustInfo table{
+	width: 100%;
+    border-radius: 0.3vw;
+	border: 1px solid;	
+	border: none;
+}
+.tittle{
+	font-size: 3vw;
+	text-align: center;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.IndustInfo table input{
+	width: 100%;
+	height: 3.5vw;
+	margin-bottom: 5%;
+}
+.submit input{
+	font-size: 2.3vw;
+	font-weight: 600;
+	text-align: center;
+	margin-top: 3%;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	letter-spacing: 0.5vw;
+	border-radius: 5vw;
+	background-color: green;
+	opacity: 0.75;
+	margin-left: 7%;
+	color: #d39709;
+	box-shadow: 2px 2px 7px;
+}
+.submit input:hover{
+	color: #fff;
+	background: linear-gradient(to bottom, green, #d39709, green, #d39709, green);
+}
+
+/*===================== Footer =====================*/
+.footer{
+	width: 100%;
+	height: 10vw;
+	background-color: #0f6704/*green*/;
+	border-radius: 0.1em 0.1em 0.2em 0.2em;
+	color: #fff;
+	text-align: center;
+	font-size: 1.5vw;
+	padding: 1em;
+	overflow: hidden;
+}
+ 
+

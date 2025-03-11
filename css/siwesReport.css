@@ -1,0 +1,325 @@
+html body{
+	margin: 0;
+	padding: 0vw 6vw;
+	background-color: rgb(243, 239, 239);
+	overflow-x: hidden; 	
+}
+.hr{
+	border-style: none;
+	border-top-style: dotted;
+	border-color: #0f6704;
+	border-width: 0.4em;
+	width: 55%;
+	margin: 0 auto;
+} 
+/*=====================Header=====================*/
+.header{
+	background-color: #0f6704/*green*/;
+	/*background: linear-gradient(to bottom, gold, green, gold, green, gold, green);*/
+    border-radius: 0.5vw 0.5vw 0.1vw 0.1vw;
+    color: #fff;
+    width: 100%;
+    height: 7vw;
+    clear: both;
+	font-family: serif;
+	padding: 0.5vw 0em 0.3vw 0em;
+}
+.header h1{
+	font-size: 3vw;
+	text-align: center;
+	font-weight: 600;
+	line-height: 0.85;
+	letter-spacing: 0.15em;
+}
+.header h6{
+	font-size: 1.7vw;
+	text-align: center;
+	margin: 3% 0 0 0;
+	font-weight: 500;
+	line-height: 0.5;
+	letter-spacing: 0.1em;
+	font-family: courier;
+}
+.header img{
+	width: 9.5vw;
+	height: 8vw;
+	float: left;
+	margin-top:-1.2vw;
+}
+
+/*=====================nav Link=====================*/
+.link{
+	background-color: #d19013;
+	height: 3.2vw;
+	border-radius:0.2em;
+	width: 100%;
+}
+    /* menu */
+.menu{
+	width: 5%;
+	height: 2.45vw;
+	background-color: rgb(185, 174, 174);
+	float: right;
+	margin:0.3vw 0.5% 0vw 0;
+	padding: 0.1%;
+	border-radius: 0.4vw;
+}  
+.menu:hover{
+	background-color: #fff;
+}
+.div1, .div2, .div3{
+	width: 80%;
+	height: 0.37vw;
+	background-color: #000;
+	margin-top: 0.3vw;
+	margin-left: 10%;
+	border-radius: 1vw;
+}
+.link ul{
+    width: 97%;
+	text-align: center;
+}
+.link li{
+	list-style-type: none;
+	display: inline-block;
+	border: 2px solid #fff;
+	margin: 0.25vw 0.1vw;
+	font-size: 1.4vw;
+	border-radius: 0.4em;
+	background-color: #000;    
+}
+.link li:first-child{
+    margin-left: -12%;
+}
+.link li a{
+	text-decoration: none;
+	color: #fff;
+	font-family: Arial;
+	padding: 0.01vw 0.7vw;
+}
+.link li:hover{
+	background: linear-gradient(to bottom, green, #d39709, green, #d39709, green);
+}
+
+/*==================================== StudentInfo ====================================*/
+.intro{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 0.3vw;
+    /* height: 10vw; */
+    margin: 0.2% auto;
+    box-shadow: 2px 2px 7px; 
+    font-size: 3.65vw;
+    font-weight: 600;
+    line-height: 1;
+    font-family:  monospace;
+    text-align: center;
+    padding: 1% 1% 0.1% 1%;
+}
+.student{
+    width: 35%;
+    background-color: #fff;
+    float: left;
+    border-radius: 0.3vw;
+    box-shadow: 2px 2px 7px; 
+    padding-bottom: 0.25%;
+}
+.student img{
+    width: 60%;
+    margin: 5% 20% 0% 20%;
+}
+.student hr{
+    width: 90%;
+    margin: 4% auto;
+}
+.student table{
+    margin: auto;
+    width: 90%;
+    font-size: 1.2vw;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*==================================== SiwesInfo ====================================*/
+.siwesinfo{
+    width: 64%;
+    background-color: #fff;
+    float: right;
+    border-radius: 0.3vw;
+    padding: 2% 3% 5.6% 3%;
+    box-shadow: 2px 2px 7px;
+	font-size: 1.5vw;
+    font-weight: 600;
+    font-family: cursive;
+}
+.siwesinfo h2{
+    font-size: 3vw;
+}
+.siwesinfo table{
+    margin: auto;
+    width: 85%;
+}
+
+/*==================================== Intro Rep ====================================*/
+.reportweek2, .reportweek3, .reportweek4{
+	display: none;
+}
+.introrep{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 0.3vw;
+    margin: 0.2% auto 0% auto;
+    box-shadow: 2px 2px 7px; 
+    font-size: 3vw;
+    line-height: 1;
+    font-family:  monospace;
+    text-align: center;
+    padding: 1% 1% 0.1% 1%;
+}
+
+.month{
+	font-size: 2.7vw;
+}
+.month span{
+	border: 1px solid #000;
+	padding: 0 1.5%;
+	border-radius: 1vw;
+}
+.month .week1{
+	background-color: green;
+	color: #fff;
+}
+
+/*==================================== Report ====================================*/
+.report{
+	width: 99.8%;
+    background-color: #fff;
+    border-radius: 0.3vw;
+    margin: 0.4% auto 0% auto;
+    box-shadow: 2px 2px 7px; 
+    font-size: 3vw;
+    line-height: 1;
+    font-family:  monospace;
+    text-align: center;
+    padding: 1% 2% 2% 2%;
+}
+.report table{
+    margin: auto;
+    width: 100%;
+    font-size: 1.5vw;
+    font-weight: 600;
+    font-family: cursive;
+    background-color:  rgb(253, 251, 251);
+    box-shadow: 2px 2px 7px;
+}
+.report .dt{
+    width: 10%;
+    height: 5vw;
+    margin-bottom: 1%;
+    text-align: left;
+    text-indent: 22%;
+    
+}
+.report .dt input{
+    width:40%;
+    height: 3vw;
+    margin-bottom: 1%;
+    box-shadow: 2px 2px 7px;
+    float: left;
+    margin-left: 10%;
+}
+.report .infrep{
+    width: 100%;
+} 
+.report .infrep textarea{
+    width: 180%;
+    height: 6vw;
+    margin-bottom: 1%;
+    box-shadow: 2px 2px 7px;
+    margin-left: -24.5vw;
+}
+.report .sumtxt{
+    width: 100%;
+    font-size: 3.5vw;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: -5vw;
+}
+.report .summary textarea{
+    width: 97%;
+    height: 25vw;
+    margin: -1% auto 0% auto;
+    box-shadow: 2px 2px 7px;
+}
+.report .uplod label{
+    float: left;
+    margin-left: 20%;
+    padding-top: 2%;
+    color: #d39709;
+ }
+.report .uplod input{
+    font-size: 2.5vw;
+    padding-bottom: 2%;
+    padding-top: 1%;
+    float: left;
+    margin-left: 10%;
+}
+.report .submit input{
+    margin: 2% auto;
+    width: 60%;
+    padding: 0.5vw;
+    font-size: 3vw;
+	font-weight: 600;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	letter-spacing: 0.5vw;
+	border-radius: 5vw;
+	background-color: green;
+	opacity: 0.75;
+    color: #d39709;
+    box-shadow: 2px 2px 7px #d39709;
+}
+.report .submit input:hover{
+	color: #fff;
+	background: linear-gradient(to bottom, green, #d39709, green, #d39709, green);
+}
+
+/*options next $ previos*/
+.prev1, .prev2, .prev3{
+	float: left;
+	margin-left: 15%;
+}
+.next2, .next3, .next4{
+	float: right;
+	margin-right: 15%;
+}
+.prev1, .prev2, .prev3, .next2, .next3, .next4{
+	width: 20%;
+	border-radius: 5vw;
+	background-color: #0f6704;
+	color: #fff;
+	padding: 1%;
+	font-size: 1.7vw;
+	opacity: 0.9;
+	font-weight: 600;
+	text-align: center;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.prev1:hover, .prev2:hover, .prev3:hover, .next2:hover, .next3:hover, .next4:hover{
+	background: linear-gradient(to bottom, green, #d39709, green, #d39709, green);
+	color: #000;
+}
+
+/*===================== Footer =====================*/
+.footer{
+	width: 100%;
+	height: 10vw;
+	background-color: #0f6704/*green*/;
+	border-radius: 0.1em 0.1em 0.2em 0.2em;
+	color: #fff;
+	text-align: center;
+	font-size: 1.5vw;
+	padding: 1em;
+	overflow: hidden;
+}
+ 
+
